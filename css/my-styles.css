@@ -1,3 +1,14 @@
 /* Layout
+/*================================= *!*/
+
+body{
+    padding-top: 20px;
+}
+
+/* Jumbotron
 ================================= */
+
+.jumbotron {
+    text-align: center;
+}
 
