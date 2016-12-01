@@ -68,7 +68,8 @@
                         you how to build both apps from scratch!</p>
                     <p class="btn-group">
                         <a class="btn btn-success btn-lg" href="#">Download the app</a>
-                        <a class="btn btn-default btn-lg hidden-xs" data-toggle="modal" href="#textModal">Text me the link</a>
+                        <a class="btn btn-default btn-lg hidden-xs" data-toggle="modal" href="#textModal">Text me the
+                            link</a>
                     </p>
                 </div>
 
@@ -111,6 +112,19 @@
                 <h4 class="modal-title">We'll Text You the Link!</h4>
             </div>
             <div class="modal-body">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                        <input type="tel" class="form-control" id="mobilePhone" placeholder="Mobile Phone">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>iOS</option>
+                            <option>Android</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Send me link</button>
+                </form>
 
             </div>
         </div>
