@@ -51,55 +51,73 @@
 
 <!-- Begin Carousel -->
 
+<div class="container">
+    <div id="myCarousel" class="carousel slide jumbotron">
+        <div class="container">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
 
-<div id="myCarousel" class="carousel slide jumbotron">
-    <div class="container">
-        <ol class="carousel-indicators">
-            <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
+                <div class="item active">
+                    <h1>Self-destructing message app</h1>
+                    <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today!
+                        We'll teach
+                        you how to build both apps from scratch!</p>
+                    <p class="btn-group">
+                        <a class="btn btn-success btn-lg" href="#">Download the app</a>
+                        <a class="btn btn-default btn-lg hidden-xs" data-toggle="modal" href="#textModal">Text me the link</a>
+                    </p>
+                </div>
 
-            <div class="item active">
-                <h1>Self-destructing message app</h1>
-                <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today!
-                    We'll teach
-                    you how to build both apps from scratch!</p>
-                <p class="btn-group">
-                    <a class="btn btn-success btn-lg" href="#">Download the app</a>
-                    <a class="btn btn-default btn-lg hidden-xs" href="#">Text me the link</a>
-                </p>
+                <div class="item">
+                    <h1>Learn how to build it for iOS</h1>
+                    <p class="lead">We'll teach you how to build it from scratch!</p>
+                    <p>
+                        <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h1>Learn how to build it for Android</h1>
+                    <p class="lead">We'll teach you how to build it from scratch!</p>
+                    <p>
+                        <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+                    </p>
+
+                </div>
+
             </div>
-
-            <div class="item">
-                <h1>Learn how to build it for iOS</h1>
-                <p class="lead">We'll teach you how to build it from scratch!</p>
-                <p>
-                    <a class="btn btn-success btn-lg" href="#">Get started today!</a>
-                </p>
-            </div>
-
-            <div class="item">
-                <h1>Learn how to build it for Android</h1>
-                <p class="lead">We'll teach you how to build it from scratch!</p>
-                <p>
-                    <a class="btn btn-success btn-lg" href="#">Get started today!</a>
-                </p>
-
-            </div>
-
         </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="icon-prev"></span>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
 
-    </a><a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="icon-next"></span>
-</a>
+        </a><a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+    </div>
 </div>
 
 <!-- End Carousel -->
+
+<!--Begin Modal-->
+<div class="modal fade" id="textModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">We'll Text You the Link!</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--End Modal-->
 
 <div class="container">
 
@@ -108,8 +126,10 @@
         <div class="col-sm-4">
             <b class="glyphicon glyphicon-camera"></b>
             <h2>Delete photo &amp; video based on a timer</h2>
-            <p>Learn how to write the code that downloads and displays messages, photos, and videos that timeout after a
-                few seconds. Then create the code that deletes them from the back-end to make them "self destruct."</p>
+            <p>Learn how to write the code that downloads and displays messages, photos, and videos that timeout
+                after a
+                few seconds. Then create the code that deletes them from the back-end to make them "self
+                destruct."</p>
         </div>
 
         <div class="col-sm-4">
@@ -123,7 +143,8 @@
         <div class="col-sm-4">
             <b class="glyphicon glyphicon-cloud"></b>
             <h2>Store &amp; retrieve data using cloud services</h2>
-            <p>We'll teach you how to upload images, video files, and messages to Parse.com'sm cloud servers. Then learn
+            <p>We'll teach you how to upload images, video files, and messages to Parse.com'sm cloud servers. Then
+                learn
                 how
                 to retrieve the data by setting up custom queries that download and display them in the app. </p>
         </div>
@@ -133,11 +154,15 @@
     <div>
         <div class="col-sm-6 hidden-xs">
             <h3>Learn how to make this app</h3>
-            <p>Cupcake ipsum dolor sit amet pastry candy canes carrot cake. Wafer sweet roll macaroon bear claw wafer.
-                Icing gingerbread topping brownie cookie macaroon cookie lemon drops. Halvah jujubes halvah sweet. Candy
+            <p>Cupcake ipsum dolor sit amet pastry candy canes carrot cake. Wafer sweet roll macaroon bear claw
+                wafer.
+                Icing gingerbread topping brownie cookie macaroon cookie lemon drops. Halvah jujubes halvah sweet.
+                Candy
                 bonbon chocolate lemon drops. Pastry cookie marshmallow. Candy canes muffin pie carrot cake jelly-o
-                caramels candy canes jujubes sugar plum. Macaroon jelly beans muffin fruitcake bonbon. Gummi bears candy
-                gummi bears muffin soufflé. Dessert croissant toffee jelly beans biscuit cake sugar plum chocolate apple
+                caramels candy canes jujubes sugar plum. Macaroon jelly beans muffin fruitcake bonbon. Gummi bears
+                candy
+                gummi bears muffin soufflé. Dessert croissant toffee jelly beans biscuit cake sugar plum chocolate
+                apple
                 pie.</p>
 
             <div class="row">
@@ -154,11 +179,15 @@
 
         <div class="col-sm-6">
             <h3>About Treehouse</h3>
-            <p>Cupcake ipsum dolor sit amet pastry candy canes carrot cake. Wafer sweet roll macaroon bear claw wafer.
-                Icing gingerbread topping brownie cookie macaroon cookie lemon drops. Halvah jujubes halvah sweet. Candy
+            <p>Cupcake ipsum dolor sit amet pastry candy canes carrot cake. Wafer sweet roll macaroon bear claw
+                wafer.
+                Icing gingerbread topping brownie cookie macaroon cookie lemon drops. Halvah jujubes halvah sweet.
+                Candy
                 bonbon chocolate lemon drops. Pastry cookie marshmallow. Candy canes muffin pie carrot cake jelly-o
-                caramels candy canes jujubes sugar plum. Macaroon jelly beans muffin fruitcake bonbon. Gummi bears candy
-                gummi bears muffin soufflé. Dessert croissant toffee jelly beans biscuit cake sugar plum chocolate apple
+                caramels candy canes jujubes sugar plum. Macaroon jelly beans muffin fruitcake bonbon. Gummi bears
+                candy
+                gummi bears muffin soufflé. Dessert croissant toffee jelly beans biscuit cake sugar plum chocolate
+                apple
                 pie.</p>
             <a href="#">Sign Up for Treehouse &raquo;</a>
         </div>
