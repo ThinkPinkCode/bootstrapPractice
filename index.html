@@ -19,7 +19,7 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"><</span>
+            <span class="icon-bar"></span>
         </button>
 
         <a class="navbar-brand text-muted" href="#">Ribbit</a>
@@ -28,7 +28,14 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">About Ribbit</a></li>
-                <li><a href="#">Treehouse</a></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" data-target="#">Treehouse<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">About Treehouse</a></li>
+                        <li><a href="#">Video Library</a></li>
+                        <li><a href="#">Learning Adventures</a></li>
+                    </ul>
+                </li>
             </ul>
 
         </div>
